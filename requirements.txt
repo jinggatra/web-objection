@@ -26,4 +26,3 @@ ujson==5.6.0
 uvicorn==0.20.0
 watchfiles==0.18.1
 websockets==10.4
-feedparser==5.2.1
