@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+
+{% block bodyblock %}
+
+<div class="container">
+    <br><h3 class='display-2'>Web Component Detection</h3>
+</div>
+<br>
+<div class="container">
+    <br>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <label for="upload">Upload to predict</label>
+        <input type="file" id="upload" name="fileToUpload" required="true">
+        <input type="submit" value="Upload & Predict" class="btn btn-outline-primary">
+    </form>
+
+</div><br><br>
+{% if not fileupload %}
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+{% endif %}
+{% if fileupload  %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 img-thumbnail" id="predict">
+            <img src="{{ url_for('static',filename='uploads/')}}{{ data['visualize'] }}" alt=""
+            width="{{ data['width'] }}" height="300">
+        </div>
+        <div class="col-md-6 img-thumbnail" id="predict">
+            <img src="{{ url_for('static',filename='prediction/')}}{{ data['visualize'] }}" alt=""
+            width="{{ data['width'] }}" height="600">
+        </div>
+    </div>
+    <br><br>
+    {% if cost_for_damage %}
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="display-2"><strong>Object summary</strong></h3>
+                </div>
+                <br>
+                <div class="panel-body">
+                    <div class="table-responsive">
+                        <table class="table table-condensed">
+                            <thead>
+                                <tr>
+                                    <td><strong>Component Name</strong></td>
+                                    <td class="text-center"><strong>Number of Component(s)</strong></td>
+                                    <td class="text-center"><strong>HTML Output</strong></td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for name, value in data['temp'].items() %}
+                                <tr>
+                                    <td>{{ name }}</td>
+                                    <td class="text-center">{{ value['Count'] }}</td>
+                                    <td class="text-center"><textarea id="output" name="output" rows="4" cols="50" disabled>{{ value['Temp'] }}</textarea></td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+
+{% endif %}
+
+{% endblock %}

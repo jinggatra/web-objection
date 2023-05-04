@@ -1,0 +1,5 @@
+  <pre>
+        <code>
+          &#60;img src="###" alt="Trulli" width="###" height="###"&#62;
+        </code>
+    </pre>
