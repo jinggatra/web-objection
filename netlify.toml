@@ -27,8 +27,8 @@
 # here but we recommend using the Netlify UI for sensitive
 # values to keep them out of your source repository.
 [context.production]
-#   publish = "output/"
-#   command = "make publish"
+  publish = "/"
+  command = "python main.py"
   environment = { NODE_VERSION = "14.15.3" }
 
 # Deploy Preview context: all deploys generated from
