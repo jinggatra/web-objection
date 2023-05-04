@@ -3,7 +3,7 @@
     "builds": [
         {
             "src": "*.py",
-            "use": "@vercel/web-objection"
+            "use": "@jinggatra/web-objection"
         }
     ],
     "routes": [
