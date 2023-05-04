@@ -27,8 +27,8 @@
 # here but we recommend using the Netlify UI for sensitive
 # values to keep them out of your source repository.
 [context.production]
-  publish = "output/"
-  command = "make publish"
+#   publish = "output/"
+#   command = "make publish"
   environment = { NODE_VERSION = "14.15.3" }
 
 # Deploy Preview context: all deploys generated from
@@ -153,7 +153,7 @@
   # functions, to deploy. This is relative to the base directory
   # if one has been set, or the root directory if
   # a base hasn’t been set.
-  directory = "functions/"
+  directory = "templates/"
 
 # Use [dev] to set configuration overrides for local 
 # development environments run using Netlify Dev - except 
