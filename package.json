@@ -1,5 +1,27 @@
 {
   "devDependencies": {
     "netlify-cli": "^14.4.0"
-  }
+  },
+  "name": "web-objection",
+  "description": "Website Component Object Recognition Using The Mask Region-Based Convolutional Neural Network (Mask R-CNN) Method",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muhammad Taufik Hidayat",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinggatra/web-objection.git"
+  },
+  "keywords": [
+    "web",
+    "object",
+    "detection"
+  ],
+  "bugs": {
+    "url": "https://github.com/jinggatra/web-objection/issues"
+  },
+  "homepage": "https://github.com/jinggatra/web-objection#readme"
 }
