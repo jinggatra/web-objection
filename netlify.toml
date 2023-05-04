@@ -79,7 +79,7 @@
 # A basic redirect rule
 [[redirects]]
   from = "/*"
-  to = "/static/index.html"
+  to = "/templates/index.html"
 
 # A redirect rule with many of the supported properties
 [[redirects]]

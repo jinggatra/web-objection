@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "*.py",
+            "use": "@jinggatra/web-objection"
+        }
+    ],
+    "routes": [
+        {
+            "src": "(.*)",
+            "dest": "main.py"
+        }
+    ]
+  }
