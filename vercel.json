@@ -2,7 +2,8 @@
     "version": 2,
     "builds": [
         {
-            "src": "*.py"
+            "src": "*.py",
+            "use": "@vercel/web-objection"
         }
     ],
     "routes": [
