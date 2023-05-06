@@ -1,13 +1,13 @@
 from flask import Flask, url_for
 from app import views
 from flask_ngrok import run_with_ngrok
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 # Warning
 import warnings
 
 app = Flask(__name__, 
-                template_folder='/content/drive/MyDrive/car-damage-detecting-MaskRCNN-main/templates/', 
-                static_folder='/content/drive/MyDrive/car-damage-detecting-MaskRCNN-main/static/'
+                template_folder='templates/', 
+                static_folder='static/'
             )
 
 # app.add_url_rule('/predict', 'predict', views.predictpage, methods=['POST', 'GET'])

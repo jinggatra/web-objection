@@ -1,0 +1,49 @@
+<annotation>
+	<folder>my-project-name</folder>
+	<filename>113.JPG</filename>
+	<path>/my-project-name/113.JPG</path>
+	<source>
+		<database>Unspecified</database>
+	</source>
+	<size>
+		<width>1348</width>
+		<height>696</height>
+		<depth>3</depth>
+	</size>
+	<object>
+		<name>Image</name>
+		<pose>Unspecified</pose>
+		<truncated>Unspecified</truncated>
+		<difficult>Unspecified</difficult>
+		<bndbox>
+			<xmin>2</xmin>
+			<ymin>70</ymin>
+			<xmax>1348</xmax>
+			<ymax>634</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Menu Bar</name>
+		<pose>Unspecified</pose>
+		<truncated>Unspecified</truncated>
+		<difficult>Unspecified</difficult>
+		<bndbox>
+			<xmin>469</xmin>
+			<ymin>2</ymin>
+			<xmax>883</xmax>
+			<ymax>60</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Menu Bar</name>
+		<pose>Unspecified</pose>
+		<truncated>Unspecified</truncated>
+		<difficult>Unspecified</difficult>
+		<bndbox>
+			<xmin>378</xmin>
+			<ymin>650</ymin>
+			<xmax>968</xmax>
+			<ymax>696</ymax>
+		</bndbox>
+	</object>
+</annotation>

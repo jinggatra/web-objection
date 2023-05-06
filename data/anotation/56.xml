@@ -1,0 +1,97 @@
+<annotation>
+	<folder>my-project-name</folder>
+	<filename>56.JPG</filename>
+	<path>/my-project-name/56.JPG</path>
+	<source>
+		<database>Unspecified</database>
+	</source>
+	<size>
+		<width>1349</width>
+		<height>698</height>
+		<depth>3</depth>
+	</size>
+	<object>
+		<name>Side Bar</name>
+		<pose>Unspecified</pose>
+		<truncated>Unspecified</truncated>
+		<difficult>Unspecified</difficult>
+		<bndbox>
+			<xmin>894</xmin>
+			<ymin>178</ymin>
+			<xmax>1191</xmax>
+			<ymax>698</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Text Field</name>
+		<pose>Unspecified</pose>
+		<truncated>Unspecified</truncated>
+		<difficult>Unspecified</difficult>
+		<bndbox>
+			<xmin>944</xmin>
+			<ymin>0</ymin>
+			<xmax>1215</xmax>
+			<ymax>35</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Menu Bar</name>
+		<pose>Unspecified</pose>
+		<truncated>Unspecified</truncated>
+		<difficult>Unspecified</difficult>
+		<bndbox>
+			<xmin>139</xmin>
+			<ymin>0</ymin>
+			<xmax>861</xmax>
+			<ymax>30</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Menu Bar</name>
+		<pose>Unspecified</pose>
+		<truncated>Unspecified</truncated>
+		<difficult>Unspecified</difficult>
+		<bndbox>
+			<xmin>138</xmin>
+			<ymin>125</ymin>
+			<xmax>746</xmax>
+			<ymax>171</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Nav Bar</name>
+		<pose>Unspecified</pose>
+		<truncated>Unspecified</truncated>
+		<difficult>Unspecified</difficult>
+		<bndbox>
+			<xmin>943</xmin>
+			<ymin>130</ymin>
+			<xmax>1203</xmax>
+			<ymax>173</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Text Field</name>
+		<pose>Unspecified</pose>
+		<truncated>Unspecified</truncated>
+		<difficult>Unspecified</difficult>
+		<bndbox>
+			<xmin>915</xmin>
+			<ymin>507</ymin>
+			<xmax>1076</xmax>
+			<ymax>558</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Button</name>
+		<pose>Unspecified</pose>
+		<truncated>Unspecified</truncated>
+		<difficult>Unspecified</difficult>
+		<bndbox>
+			<xmin>1077</xmin>
+			<ymin>504</ymin>
+			<xmax>1189</xmax>
+			<ymax>556</ymax>
+		</bndbox>
+	</object>
+</annotation>
