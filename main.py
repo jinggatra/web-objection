@@ -16,7 +16,7 @@ app.add_url_rule('/base','base',views.base)
 app.add_url_rule('/','index',views.index)
 app.add_url_rule('/websiteapp','websiteapp',views.websiteapp)
 app.add_url_rule('/website','website',views.website,methods=['GET','POST'])
-
+@app.route("/")
 if __name__ == "__main__":
 	warnings.filterwarnings("ignore", category=DeprecationWarning)
 	run_with_ngrok(app)
