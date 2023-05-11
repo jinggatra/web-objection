@@ -17,8 +17,8 @@ app = Flask(__name__,
 # app.add_url_rule('/websiteapp','websiteapp',views.websiteapp)
 # app.add_url_rule('/website','website',views.website,methods=['GET','POST'])
 
-@app.route('/base','base',views.base)
-@app.route('/','index',views.index)
+@app.route('/base')
+@app.route('/')
 def index():
     if __name__ == "__main__":
         warnings.filterwarnings("ignore", category=DeprecationWarning)
@@ -26,11 +26,11 @@ def index():
         app.run()
     return 'Web Object Detection'
         
-@app.route('/websiteapp','websiteapp',views.websiteapp)
+@app.route('/websiteapp')
 def websiteapp():
     return 'WebsiteApp'
 
 
-@app.route('/website','website',views.website,methods=['GET','POST'])
+@app.route('/website')
 def website():
     return 'Detection Process'
