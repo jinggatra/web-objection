@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 from PIL import Image
 from mrcnn.utils import Dataset
 # Flask Import
+# import numpy
 from flask import render_template, request, Flask, url_for
 from os import listdir
 # class that defines and loads the kangaroo dataset
